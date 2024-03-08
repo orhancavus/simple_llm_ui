@@ -25,7 +25,7 @@ llama.cpp should be installed and running in server mode on localhost <http://0.
 <https://github.com/ggerganov/llama.cpp.git>
 
 ```bash
-./server -c 4096 --host 0.0.0.0 -t 16 --mlock -m ./my_models/TheBloke/LLama2-7B-chat-GGUF/llama-2-7b-chat.Q4_K_M.gguf
+./llama.cpp/server -c 4096 --host 0.0.0.0 -t 16 --mlock -m ./my_models/TheBloke/LLama2-7B-chat-GGUF/llama-2-7b-chat.Q4_K_M.gguf
 ```
 
 ### Running
