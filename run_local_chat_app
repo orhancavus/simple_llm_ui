@@ -3,3 +3,12 @@
 Echo Running script
 
 streamlit run llm_chat_st_app.py
+
+
+# curl -X POST \
+#  http://127.0.0.1:8080/completion \
+#  -H 'Content-Type: application/json' \
+#  -d '{
+#    "prompt": "Explain prime numbers",
+#    "n_predict": 512
+# }' | jq '.content'
